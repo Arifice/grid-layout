@@ -1,0 +1,36 @@
+
+.box{
+    background-color: chocolate;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 2px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#box-1{
+    grid-area: box1;
+}
+#box-2{
+    grid-area: box2;
+}
+#box-3{
+    grid-area: box3;
+}
+#box-4{
+    grid-area: box4;
+}
+#box-5{
+    grid-area: box5;
+}
+.container{
+    display: grid;
+    gap: 5px;
+    grid-template-areas: 
+    "box1 box1 box1 box2 box2"
+    "box3 box4 box4 box2 box2"
+    "box3 box5 box5 box5 box5"
+    ;
+   
+}
