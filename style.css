@@ -1,0 +1,38 @@
+.container {
+    background-color: gainsboro;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 100px) 50px 50px;
+    padding: 50px;
+
+}
+
+.box {
+    background-color: gray;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 5px;
+    padding: 5px;
+    
+}
+
+#box-1 {
+    grid-row: span 5;
+}
+
+#box-11 {
+    grid-column: span 3;
+}
+
+#box-12 {
+    grid-column: span 3;
+}
+
+#box-6,
+#box-7,
+#box-9,
+#box-10 {
+    background-color: red;
+}
